@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules/
+esp32-api/
 
 # Expo
 .expo/
