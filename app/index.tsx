@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
 // import * as Speech from 'expo-speech';
 
 // const { width, height } = Dimensions.get('window');
-// const API_URL = "https://esp32-api-h6ld.onrender.com/data"; // Replace with your Render URL
+// const API_URL = ""; // Replace with your Render URL
 
 // export default function App() {
 //   const [detection, setDetection] = useState(null);
