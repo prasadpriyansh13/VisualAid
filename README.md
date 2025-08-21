@@ -1,4 +1,4 @@
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/cf269315-4eb6-4368-b144-34bfb2d2067b" />
+
 Analysing Visual Data, and converting them to Auditory medium, in order to help individuals with impaired vision to assess their surroundings in a better way.
 
 As part of my final year electronics engineering project, I developed VisionAid — an edge-based, real-time object detection system aimed at improving the mobility and independence of visually impaired individuals. This wearable solution uses the ESP32-CAM microcontroller, a custom-trained object detection model from Edge Impulse, and a React Native mobile application to detect everyday objects and deliver audio alerts through Bluetooth earphones.
@@ -17,3 +17,5 @@ Hardware: ESP32-CAM, Bluetooth earphones
 ML Tools: Edge Impulse, TensorFlow Lite Micro
 Software: Arduino IDE, React Native (Expo)
 Languages: C++, JavaScript, TypeScript
+<br>
+<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/cf269315-4eb6-4368-b144-34bfb2d2067b" /><br>
