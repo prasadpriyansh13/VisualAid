@@ -1,50 +1,19 @@
-# Welcome to your Expo app 👋
+<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/cf269315-4eb6-4368-b144-34bfb2d2067b" />
+Analysing Visual Data, and converting them to Auditory medium, in order to help individuals with impaired vision to assess their surroundings in a better way.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+As part of my final year electronics engineering project, I developed VisionAid — an edge-based, real-time object detection system aimed at improving the mobility and independence of visually impaired individuals. This wearable solution uses the ESP32-CAM microcontroller, a custom-trained object detection model from Edge Impulse, and a React Native mobile application to detect everyday objects and deliver audio alerts through Bluetooth earphones.
 
-## Get started
+VisionAid captures video frames using an ESP32-CAM and runs a lightweight object detection model directly on the device (no internet required). Once an object is detected, the system sends structured JSON data via UDP to a paired smartphone app built in React Native. The app parses the detection data and converts it into speech using a Text-to-Speech (TTS) engine. The user receives this feedback instantly through Bluetooth earphones.
 
-1. Install dependencies
+The system was trained using a mix of open datasets and custom-labeled images to recognize daily surroundings.
 
-   ```bash
-   npm install
-   ```
+Average inference time on the ESP32-CAM: ~250 ms, with ~85% detection accuracy in good lighting conditions.
 
-2. Start the app
+Testing & Results
+The system was tested in both indoor and outdoor scenarios. It could reliably detect small personal objects placed on a table or floor and alert the user through clear audio feedback. 
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Technologies Used
+Hardware: ESP32-CAM, Bluetooth earphones
+ML Tools: Edge Impulse, TensorFlow Lite Micro
+Software: Arduino IDE, React Native (Expo)
+Languages: C++, JavaScript, TypeScript
