@@ -12,10 +12,10 @@ Average inference time on the ESP32-CAM: ~250 ms, with ~85% detection accuracy i
 Testing & Results
 The system was tested in both indoor and outdoor scenarios. It could reliably detect small personal objects placed on a table or floor and alert the user through clear audio feedback. 
 
-Technologies Used
-Hardware: ESP32-CAM, Bluetooth earphones
-ML Tools: Edge Impulse, TensorFlow Lite Micro
-Software: Arduino IDE, React Native (Expo)
-Languages: C++, JavaScript, TypeScript
+Technologies Used <br>
+Hardware: ESP32-CAM, Bluetooth earphones <br>
+ML Tools: Edge Impulse, TensorFlow Lite Micro <br>
+Software: Arduino IDE, React Native (Expo) <br>
+Languages: C++, JavaScript, TypeScript <br>
 <br>
 <img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/cf269315-4eb6-4368-b144-34bfb2d2067b" /><br>
